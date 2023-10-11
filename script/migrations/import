@@ -1,0 +1,14 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+module Migrations
+  module Import
+    class << self
+      def run
+        puts "Hello, world!"
+      end
+    end
+  end
+end
+
+Migrations::Import.run
