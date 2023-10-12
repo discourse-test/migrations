@@ -8,7 +8,7 @@ module Migrations
   module Import
     class << self
       def run
-        puts "Importing into Discourse #{Discourse::VERSION::STRING}"
+        puts "Importing into Discourse #{Discourse::VERSION::STRING}!!"
       end
     end
   end
