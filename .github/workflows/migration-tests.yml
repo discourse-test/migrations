@@ -17,7 +17,7 @@ permissions:
 
 jobs:
   tests:
-    name: Tests with Ruby ${{ matrix.ruby }}
+    name: Ruby ${{ matrix.ruby }}
     runs-on: 'ubuntu-latest'
     container: discourse/discourse_test:slim
     timeout-minutes: 20
